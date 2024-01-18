@@ -39,4 +39,5 @@ app.post("/upload", applyMulter, async (req, res) => {
     });
 });
 
-app.listen(3000, () => console.log("Server started on port 3000"));
+const SERVER_PORT = process.env.SERVER_PORT || 3000
+app.listen(SERVER_PORT, () => console.log(`Server started on port ${SERVER_PORT}`));
