@@ -1,5 +1,3 @@
-## Notice that: The default port of the application is 3000, you can change it on index line 42 or use the .env file
-
 ### How to run? 
 
 #### For DEV : 
